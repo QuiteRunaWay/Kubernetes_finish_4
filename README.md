@@ -114,6 +114,13 @@ cat ~/.kube/config
 kubectl cluster-info
 ```
 
+ИТОГ по заданию 2:
+
+json, который выдернули curl`ом приложил в данном репозитории
+
+![image](https://user-images.githubusercontent.com/92969676/203282203-663b4ee5-7e5d-4c6d-9361-8e26f5360cf7.png)
+
+
 ---
 
 ### Как оформить ДЗ?
