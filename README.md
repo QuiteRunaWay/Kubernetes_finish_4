@@ -11,7 +11,7 @@
 kubectl create serviceaccount netology
 ```
 
-### Ответ 1.1:  
+### Ответ 1.1: создаем аккаунт  
 
 ![image](https://user-images.githubusercontent.com/92969676/203279775-f21110de-730c-4621-b5fa-868a8892135e.png)
 
@@ -23,7 +23,7 @@ kubectl get serviceaccounts
 kubectl get serviceaccount
 ```
 
-### Ответ 1.2: 
+### Ответ 1.2: проверяем какие вообще аккаунты у нас есть
 
 ![image](https://user-images.githubusercontent.com/92969676/203279870-741251ca-2f24-419b-86ae-db773294f3bd.png)
 
@@ -33,7 +33,7 @@ kubectl get serviceaccount
 kubectl get serviceaccount netology -o yaml
 kubectl get serviceaccount default -o json
 ```
-### Ответ 1.3: 
+### Ответ 1.3: просматриваем информацию об аккаунтах. В задании скорее всего имелось ввиду вывести в консоль информацию по аккаунту "netology", а во втором случае мы выводим информацию "default". В итоге вывел информацию как по заданию + по netology в json:
 
 ![image](https://user-images.githubusercontent.com/92969676/203280127-bfd190cf-b7ae-45fe-ba8b-21d60c204eef.png)
 
@@ -45,7 +45,7 @@ kubectl get serviceaccounts -o json > serviceaccounts.json
 kubectl get serviceaccount netology -o yaml > netology.yml
 ```
 
-### Ответ 1.4: 
+### Ответ 1.4: выгружаем информацию по аккаунту в файл, чтобы в дальнешем удалить его и загрузить из файла повторно.
 
 ![image](https://user-images.githubusercontent.com/92969676/203280601-b31af292-5128-4ff8-88d1-bc505a67a734.png)
 
@@ -55,7 +55,7 @@ kubectl get serviceaccount netology -o yaml > netology.yml
 kubectl delete serviceaccount netology
 ```
 
-### Ответ 1.5: 
+### Ответ 1.5: удаляем аккаунт
 
 ![image](https://user-images.githubusercontent.com/92969676/203280717-abdbf37c-e885-4367-aefe-67ab6313c2ab.png)
 
@@ -66,7 +66,7 @@ kubectl delete serviceaccount netology
 kubectl apply -f netology.yml
 ```
 
-### Ответ 1.6: 
+### Ответ 1.6: загружаем аккаунт из файла
 
 ![image](https://user-images.githubusercontent.com/92969676/203280801-376f8151-1eb6-4ab8-9827-d70e0c3983c3.png)
 
