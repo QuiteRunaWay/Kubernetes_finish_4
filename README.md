@@ -5,44 +5,56 @@
 Выполните приведённые команды в консоли. Получите вывод команд. Сохраните
 задачу 1 как справочный материал.
 
-### Как создать сервис-аккаунт?
+### 1.1 Как создать сервис-аккаунт?
 
 ```
 kubectl create serviceaccount netology
 ```
 
-### Как просмотреть список сервис-акаунтов?
+### Ответ 1.1:  
+
+
+### 1.2 Как просмотреть список сервис-акаунтов?
 
 ```
 kubectl get serviceaccounts
 kubectl get serviceaccount
 ```
 
-### Как получить информацию в формате YAML и/или JSON?
+### Ответ 1.2: 
+
+### 1.3Как получить информацию в формате YAML и/или JSON?
 
 ```
 kubectl get serviceaccount netology -o yaml
 kubectl get serviceaccount default -o json
 ```
+### Ответ 1.3: 
 
-### Как выгрузить сервис-акаунты и сохранить его в файл?
+### 1.4 Как выгрузить сервис-акаунты и сохранить его в файл?
 
 ```
 kubectl get serviceaccounts -o json > serviceaccounts.json
 kubectl get serviceaccount netology -o yaml > netology.yml
 ```
 
-### Как удалить сервис-акаунт?
+### Ответ 1.4: 
+
+### 1.5 Как удалить сервис-акаунт?
 
 ```
 kubectl delete serviceaccount netology
 ```
 
-### Как загрузить сервис-акаунт из файла?
+### Ответ 1.5: 
+
+### 1.6 Как загрузить сервис-акаунт из файла?
 
 ```
 kubectl apply -f netology.yml
 ```
+
+### Ответ 1.6: 
 
 ## Задача 2 (*): Работа с сервис-акаунтами внутри модуля
 
