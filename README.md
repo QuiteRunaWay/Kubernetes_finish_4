@@ -47,6 +47,8 @@ kubectl get serviceaccount netology -o yaml > netology.yml
 
 ### Ответ 1.4: 
 
+![image](https://user-images.githubusercontent.com/92969676/203280601-b31af292-5128-4ff8-88d1-bc505a67a734.png)
+
 ### 1.5 Как удалить сервис-акаунт?
 
 ```
@@ -55,6 +57,9 @@ kubectl delete serviceaccount netology
 
 ### Ответ 1.5: 
 
+![image](https://user-images.githubusercontent.com/92969676/203280717-abdbf37c-e885-4367-aefe-67ab6313c2ab.png)
+
+
 ### 1.6 Как загрузить сервис-акаунт из файла?
 
 ```
@@ -62,6 +67,9 @@ kubectl apply -f netology.yml
 ```
 
 ### Ответ 1.6: 
+
+![image](https://user-images.githubusercontent.com/92969676/203280801-376f8151-1eb6-4ab8-9827-d70e0c3983c3.png)
+
 
 ## Задача 2 (*): Работа с сервис-акаунтами внутри модуля
 
