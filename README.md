@@ -13,6 +13,8 @@ kubectl create serviceaccount netology
 
 ### Ответ 1.1:  
 
+![image](https://user-images.githubusercontent.com/92969676/203279775-f21110de-730c-4621-b5fa-868a8892135e.png)
+
 
 ### 1.2 Как просмотреть список сервис-акаунтов?
 
@@ -23,6 +25,8 @@ kubectl get serviceaccount
 
 ### Ответ 1.2: 
 
+![image](https://user-images.githubusercontent.com/92969676/203279870-741251ca-2f24-419b-86ae-db773294f3bd.png)
+
 ### 1.3Как получить информацию в формате YAML и/или JSON?
 
 ```
@@ -30,6 +34,9 @@ kubectl get serviceaccount netology -o yaml
 kubectl get serviceaccount default -o json
 ```
 ### Ответ 1.3: 
+
+![image](https://user-images.githubusercontent.com/92969676/203280127-bfd190cf-b7ae-45fe-ba8b-21d60c204eef.png)
+
 
 ### 1.4 Как выгрузить сервис-акаунты и сохранить его в файл?
 
